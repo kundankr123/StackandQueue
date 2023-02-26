@@ -15,6 +15,15 @@
             {
                 Console.WriteLine(ele);
             }
+
+            while(stack.Count > 0)
+            {
+                Console.WriteLine("****************");
+                Console.WriteLine("Top element : " + stack.Peek());
+                Console.WriteLine("****************");
+                stack.Pop();
+            }
+            
         }
     }
 }
