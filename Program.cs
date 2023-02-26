@@ -35,6 +35,14 @@
                 Console.WriteLine(ele);
             }
 
+            queue.Dequeue();
+            Console.WriteLine("After Dequing an element queue contains: ");
+            foreach (int ele in queue)
+            {
+                Console.WriteLine(ele);
+            }
+
+
         }
     }
 }
